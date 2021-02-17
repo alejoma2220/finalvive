@@ -1,0 +1,26 @@
+.cajas{
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "uno dos tres";
+  border: 2px solid;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr
+}
+.titulos{
+  grid-area: titulo;
+  background-color: red
+}
+.caja_uno{
+  grid-area: uno;
+  background-color: green;
+  padding: 20px;
+}
+.caja_dos{
+  grid-area: dos;
+  background-color: green;
+  padding: 10px;
+}
+.caja_tres{
+  grid-area: tres;
+  background-color: green;
+  padding: 20px;
+}
